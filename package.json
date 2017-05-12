@@ -2,6 +2,10 @@
   "name": "cursoangular",
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Rodrigo Gonzalez Godoy",
+    "email": "style.blaze@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
