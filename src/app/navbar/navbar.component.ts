@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  brand:string = 'http://i.cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png';
+  brand:string;
 
-  constructor() { }
+  constructor() { 
+    this.brand = 'http://i.cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png';
+  }
 
   ngOnInit() {
   }
