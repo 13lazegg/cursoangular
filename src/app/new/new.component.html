@@ -1,0 +1,19 @@
+<div class="col-sm-12 col-md-12 col-lg-12 custommargin">
+  <div class="media customcolor">
+    <div class="media-left media-middle">
+      <img class="media-object customimg" [src]="new.urlToImage" alt="Img">
+    </div>
+    <div class="media-body">
+      <a [href]="new.url">
+        <h4 class="media-heading">{{new.title}}</h4>
+      </a>
+      <h5>{{new.author}}</h5>
+    </div>
+    <div>
+      <hr>
+      <blockquote>
+        <p>{{new.description}}</p>
+      </blockquote>
+    </div>
+  </div>
+</div>
