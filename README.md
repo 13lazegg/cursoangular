@@ -1,3 +1,11 @@
+#URLS
+
+img CNN: `http://i.cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png`
+
+API: `https://newsapi.org/v1/articles?source=cnn&sortBy=top`
+
+TOKEN: `bb652081e166447bb4857b339291e276`
+
 # Cursoangular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
